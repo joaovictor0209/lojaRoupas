@@ -60,7 +60,7 @@ public class ControllerHello {
                     <body>
                         <section class='wrapperContent'>
                             <section class='topContent'>
-                                <h1>🚛 COMPRE AGORA COM FRETE GRATIS 🚛</h1>
+                                <h1>🚛 COMPRE AGORA COM FRETE GRÁTIS 🚛</h1>
                             </section>
                             
                             <main id='mainContainer' class='mainContainer'>
