@@ -95,7 +95,7 @@ public class ControllerHello {
                             position: relative;
                             background-color: transparent;
                             display: flex;
-                            flex-direction: row;
+                            flex-direction: column;
                        }
                        
                        .cardContainer {
@@ -133,6 +133,15 @@ public class ControllerHello {
                        .titleCardContainer a {
                             color: #0b0b0b;
                             text-decoration: underline;
+                       }
+                       
+                       .mainBanner {
+                            width: 100%;
+                            height: 80vh;
+                            background-image: url('https://www.papeldeparede.etc.br/fotos/wp-content/uploads/papeldeparede-Full-Moon-Dark-montanhas.jpg');
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            background-attachment: fixed;
                        }
                     </style>
                     
@@ -219,6 +228,10 @@ public class ControllerHello {
                                       	<path d="M9 6l6 6l-6 6" />
                                       </svg>
                                </div> 
+                            </section>
+                            
+                            <section id='mainBanner' class='mainBanner'>
+                                
                             </section>
                         </main>
                     </body>
