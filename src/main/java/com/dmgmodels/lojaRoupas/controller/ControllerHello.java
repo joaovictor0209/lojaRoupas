@@ -137,11 +137,22 @@ public class ControllerHello {
                        
                        .mainBanner {
                             width: 100%;
-                            height: 80vh;
-                            background-image: url('https://www.papeldeparede.etc.br/fotos/wp-content/uploads/papeldeparede-Full-Moon-Dark-montanhas.jpg');
+                            height: 100vh;
+                            position: relative;
+                            background-image: url('https://imgnike-a.akamaihd.net//strapi/nike/022326_IM_SP_26_National_Teams_Brazil_Group_Static_Social_1200x628_41ae99755f/022326_IM_SP_26_National_Teams_Brazil_Group_Static_Social_1200x628_41ae99755f.jpg');
                             background-repeat: no-repeat;
                             background-size: cover;
-                            background-attachment: fixed;
+                             z-index: 100;
+                       }
+                       
+                       .shadow {
+                            position: absolute;
+                            width: 100%;
+                            height: 100%;
+                            background-color: rgba(0,0,0,0.400);
+                            z-index: 1000;
+                            top: 0;
+                            left: 0;        
                        }
                     </style>
                     
@@ -231,7 +242,7 @@ public class ControllerHello {
                             </section>
                             
                             <section id='mainBanner' class='mainBanner'>
-                                
+                                <div class='shadow'></div>
                             </section>
                         </main>
                     </body>
